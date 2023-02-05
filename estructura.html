@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/html.ico" type="image/x-icon">
+    <title>Estructura HTML</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"><img class="icono_img_nav" src="img/html.ico" alt="">
+                </span>
+            </button>
+            <div class="nav">
+                <a class="icono" href="index.html">
+                    <img class="icono_img " src="img/html.ico" alt="icono de etiqueta">
+                </a>
+                <div class="nav_opciones show">
+                    <ul class="nav_opciones_ul">
+                        <li>
+                            <a href="index.html">Etiquetas</a>
+                        </li>
+                        <li>
+                            <a href="estructura.html">Estructura</a>
+                        </li>
+                        <li>
+                            <a href="continua.html">Continua</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1>APRENDE LA ESTRUCTURA DE HTML</h1>
+
+    </div>
+
+    <div class="parrafo_contenedor">
+        <img class="parrafo_img" src="img/html.png" alt="">
+        <div class="parrafo_div">
+            <p class="parrafo"> HTML es el lenguaje de marcado que se utiliza para estructurar el contenido de una
+                página web. La estructura
+                de HTML está compuesta por elementos que describen los diferentes componentes de una página, como el
+                encabezado, el cuerpo del texto, imágenes, enlaces y mucho más.<a href="#parrafo" id="mas"
+                    class="expand" onclick="vermas(id,0);">... [leer más]</a>
+            </p>
+            <p class="parrafo" id="desplegar"> Al utilizar HTML de manera adecuada, se
+                puede crear una página web clara y fácil de navegar para los usuarios. Además, al seguir una estructura
+                clara y coherente en HTML, se hace más fácil para los motores de búsqueda entender y clasificar el
+                contenido
+                de una página, lo que puede mejorar su posicionamiento en los resultados de búsqueda. En resumen, la
+                estructura de HTML es esencial para crear una experiencia web atractiva y eficiente para los usuarios.
+                <a href="#parrafo" id="menos" class="expand" onclick="vermas(id);">... [leer menos]</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="imagenes">
+        <img class="imagenesweb" src="img/web2.jpg" alt="">
+        <h2 class="titulo2">PLANTILLAS <br>WEBS</h2>
+        <img class="imagenesweb" src="img/web1.jpg" alt="">
+    </div>
+
+    <footer>
+        <div class="derechos-de-autor"><a href="https://santiagoaguilar-devfront.netlify.app/" class="derechos-de-autor"
+                target="_blank" rel="noopener noreferrer">Creado por Santiago
+                Aguilar (2023) &#169;</a></div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
