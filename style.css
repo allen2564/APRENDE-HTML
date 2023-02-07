@@ -454,7 +454,7 @@ body div p a {
     .titulo2 {
         writing-mode: horizontal-tb;
         word-spacing: 0;
-        line-height: 50px;
+        line-height: 200%;
         width: 99%;
         text-shadow: 1px 3px rgb(245 245 245 / 74%);
     }
