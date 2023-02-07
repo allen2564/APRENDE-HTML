@@ -61,7 +61,8 @@ a {
 }
 
 .icono_img_nav:hover {
-    filter: drop-shadow(3px 3px 2px #8a2be2);
+    /* filter: drop-shadow(3px 3px 2px #8a2be2); */
+    filter: opacity(.5);
 }
 
 .logo {
