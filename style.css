@@ -61,6 +61,11 @@ a {
     padding-left: 15px;
 }
 
+menu{
+    position: relative;
+    right: 100%;
+}
+
 .navbar-toggler {
     display: none;
     background-color: transparent;
