@@ -78,6 +78,7 @@ a {
     font-family: 'Press Start 2P', cursive;
     line-height: 100px;
     text-shadow: 2px 5px rgba(255, 255, 255, 0.738);
+    width: 100%;
 
 }
 
@@ -307,7 +308,7 @@ body div p a {
     }
 
     .titulo {
-        font-size: 100%;
+        font-size: 3vh;
         line-height: 50px;
 
         text-shadow: 1px 3px rgba(245, 245, 245, 0.738);
