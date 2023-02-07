@@ -307,7 +307,7 @@ body div p a {
     }
 
     .titulo {
-        font-size: small;
+        font-size: 3vh;
         line-height: 50px;
 
         text-shadow: 1px 3px rgba(245, 245, 245, 0.738);
