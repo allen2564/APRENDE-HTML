@@ -289,7 +289,7 @@ body div p a {
     height: 50px !important;
 }
 
-@media screen and (max-width: 580px) {
+@media only screen and (max-width: 580px) {
     #objeto {
         font-size: 3vh;
         width: 90%;
@@ -404,13 +404,13 @@ body div p a {
     border: none;
 }
 
-@media screen and (max-width: 395px) {
+@media only screen and (max-width: 395px) {
     .titulo2 {
         font-size: 3vh;
     }
 }
 
-@media screen and (max-width: 1025px) {
+@media only screen and (max-width: 1025px) {
 
     .nav_opciones_ul {
         width: 90%;
