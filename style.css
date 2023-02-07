@@ -65,6 +65,10 @@ a {
     filter: opacity(.5);
 }
 
+.icono_img_nav:hover{
+    background-color: #060606;
+}
+
 .logo {
     width: 50px;
     height: 50px;
