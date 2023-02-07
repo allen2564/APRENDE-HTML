@@ -456,6 +456,7 @@ body div p a {
         word-spacing: 0;
         line-height: 50px;
         width: 99%;
+        text-shadow: 1px 3px rgb(245 245 245 / 74%);
     }
 }
 
