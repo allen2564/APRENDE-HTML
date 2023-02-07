@@ -83,7 +83,7 @@ a {
 
 h1 {
 
-    font-size: 9vh;
+    font-size: 100%;
 }
 
 h1::selection {
