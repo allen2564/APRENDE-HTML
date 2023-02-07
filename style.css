@@ -58,12 +58,15 @@ a {
 .icono_img_nav {
     width: 50px;
     height: 50px;
-    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo{
     position: relative;
     right: 100%;
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
 }
 
 .navbar-toggler {
